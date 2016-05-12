@@ -1,0 +1,119 @@
+/* main.css */
+
+body{
+  font-family: 'Comic Sans MS';
+  background: pink;
+  font-size: 16px;
+  line-height: 1.5;
+  color: black;
+  font-family: 'Old Standard TT', serif;
+  padding: 0;
+  margin: 0;
+  padding-top: 80px;
+}
+h1, h2, h3, .site-header{
+  font-family: 'Sans Serif';
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #0D9CFF;
+  font-size: 3em;
+}
+img{
+  height: 360px;
+}
+
+a{
+  color: #009FFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover{
+  color: #0064FF;
+}
+
+/* a:visited{
+  color: gray;
+} */
+
+.emphasis-paragraph{
+  font-size: 1.75em;
+}
+
+.content-container{
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  color: white;
+  background: red;
+  padding: 10px;
+  margin: 100px;
+
+}
+
+.boat{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #111;
+  font-size: 1em;
+  margin-bottom: 100px;
+  background-image: url(boat.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.memory{
+  font-family: 'Old Standard TT', serif;
+  letter-spacing: 0.5em;
+  font-size: 2em;
+}
+
+.boatname{
+  font-family: 'Old Standard TT', serif;
+  letter-spacing: 0.7em;
+  font-size: 3em;
+}
+
+.site-header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  background: red;
+  color: white;
+  height: 40px;
+  line-height: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.button {
+  background-color: #4F7FE8;
+  color: #fff;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  margin: 100px;
+  display: inline-block;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background-color: #3D6DB2;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.button:active {
+  transform: scale(0.9);
+}
